@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Clock</title>
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+    <span class="material-icons-outlined" id="fullscreen">open_in_full</span>
+    <div class="horloge">
+        <div id="hour" class="time">
+            <div class="clock">
+                <h2>00</h2>
+                <div>HEURES</div>
+            </div>
+            <div class="round"></div>
+            <svg viewbox="0 0 100 100">
+                <circle r="48" class="background"></circle>
+                <circle r="48" class="percent"></circle>
+            </svg>
+        </div>
+        <div id="min" class="time">
+            <div class="clock">
+                <h2>00</h2>
+                <div>MINUTES</div>
+            </div>
+            <div class="round"></div>
+            <svg viewbox="0 0 100 100">
+                <circle r="48" class="background"></circle>
+                <circle r="48" class="percent"></circle>
+            </svg>
+        </div>
+        <div id="sec" class="time">
+            <div class="clock">
+                <h2>00</h2>
+                <div>SECONDES</div>
+            </div>
+            <div class="round"></div>
+            <svg viewbox="0 0 100 100">
+                <circle r="48" class="background"></circle>
+                <circle r="48" class="percent"></circle>
+            </svg>
+        </div>
+        <h2 id="info"></h2>
+    </div>
+    <script src="clock.js"></script>
+</body>
+</html>
